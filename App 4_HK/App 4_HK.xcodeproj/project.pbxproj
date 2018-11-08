@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4710B3E8218B903600728D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710B3E7218B903600728D1E /* AppDelegate.swift */; };
+		4710B3ED218B903600728D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4710B3EB218B903600728D1E /* Main.storyboard */; };
+		4710B3EF218B903600728D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4710B3EE218B903600728D1E /* Assets.xcassets */; };
+		4710B3F2218B903600728D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4710B3F0218B903600728D1E /* LaunchScreen.storyboard */; };
+		47951DC8218BC7280072D421 /* albums.png in Resources */ = {isa = PBXBuildFile; fileRef = 47951DC5218BC7280072D421 /* albums.png */; };
+		47951DC9218BC7280072D421 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 47951DC6218BC7280072D421 /* home.png */; };
+		47951DCA218BC7280072D421 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 47951DC7218BC7280072D421 /* search.png */; };
+		47951DCC218BC9920072D421 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47951DCB218BC9920072D421 /* HomeController.swift */; };
+		47951DDF218BCC1D0072D421 /* abbeyRoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DCE218BCC1D0072D421 /* abbeyRoad.jpg */; };
+		47951DE0218BCC1D0072D421 /* BeatlesForSale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DCF218BCC1D0072D421 /* BeatlesForSale.jpg */; };
+		47951DE1218BCC1D0072D421 /* HardDaysNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD0218BCC1D0072D421 /* HardDaysNight.jpg */; };
+		47951DE2218BCC1D0072D421 /* help.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD1218BCC1D0072D421 /* help.jpg */; };
+		47951DE3218BCC1D0072D421 /* intro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD2218BCC1D0072D421 /* intro.jpg */; };
+		47951DE4218BCC1D0072D421 /* letitbe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD3218BCC1D0072D421 /* letitbe.jpg */; };
+		47951DE5218BCC1D0072D421 /* MagicalMysteryTour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD4218BCC1D0072D421 /* MagicalMysteryTour.jpg */; };
+		47951DE6218BCC1D0072D421 /* PastMastersVolume1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD5218BCC1D0072D421 /* PastMastersVolume1.jpg */; };
+		47951DE7218BCC1D0072D421 /* PastMastersVolume2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD6218BCC1D0072D421 /* PastMastersVolume2.jpg */; };
+		47951DE8218BCC1D0072D421 /* pleasePleaseMe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD7218BCC1D0072D421 /* pleasePleaseMe.jpg */; };
+		47951DE9218BCC1D0072D421 /* revolver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD8218BCC1D0072D421 /* revolver.jpg */; };
+		47951DEA218BCC1D0072D421 /* rubberSoul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DD9218BCC1D0072D421 /* rubberSoul.jpg */; };
+		47951DEB218BCC1D0072D421 /* sgt_pepper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DDA218BCC1D0072D421 /* sgt_pepper.jpg */; };
+		47951DEC218BCC1D0072D421 /* sgtPepper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DDB218BCC1D0072D421 /* sgtPepper.jpg */; };
+		47951DED218BCC1D0072D421 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DDC218BCC1D0072D421 /* white.jpg */; };
+		47951DEE218BCC1D0072D421 /* WithTheBeatles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DDD218BCC1D0072D421 /* WithTheBeatles.jpg */; };
+		47951DEF218BCC1D0072D421 /* Yellowsubmarine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47951DDE218BCC1D0072D421 /* Yellowsubmarine.jpg */; };
+		47951DF1218BE1B60072D421 /* SoManyTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47951DF0218BE1B60072D421 /* SoManyTabs.swift */; };
+		47951DF3218BE2C10072D421 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47951DF2218BE2C10072D421 /* Navigator.swift */; };
+		47951DF5218BE3170072D421 /* AllTheseAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47951DF4218BE3170072D421 /* AllTheseAlbums.swift */; };
+		47951DF7218BE32B0072D421 /* AllTheseSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47951DF6218BE32B0072D421 /* AllTheseSongs.swift */; };
+		47951DF9218BE34D0072D421 /* Youtuber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47951DF8218BE34D0072D421 /* Youtuber.swift */; };
+		47A16966218BFACB00CE6C17 /* albums_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A16965218BFACB00CE6C17 /* albums_1.plist */; };
+		47A16987218BFE6200CE6C17 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A16986218BFE6200CE6C17 /* String.swift */; };
+		47A169B6218C267600CE6C17 /* A_HARD_DAY'S_NIGHT_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169A7218C267600CE6C17 /* A_HARD_DAY'S_NIGHT_songs.plist */; };
+		47A169B7218C267600CE6C17 /* ABBEY_ROAD_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169A8218C267600CE6C17 /* ABBEY_ROAD_songs.plist */; };
+		47A169B8218C267600CE6C17 /* BEATLES_FOR_SALE_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169A9218C267600CE6C17 /* BEATLES_FOR_SALE_songs.plist */; };
+		47A169B9218C267600CE6C17 /* HELP!_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169AA218C267600CE6C17 /* HELP!_songs.plist */; };
+		47A169BA218C267600CE6C17 /* LET_IT_BE_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169AB218C267600CE6C17 /* LET_IT_BE_songs.plist */; };
+		47A169BB218C267600CE6C17 /* MAGICAL_MYSTERY_TOUR_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169AC218C267600CE6C17 /* MAGICAL_MYSTERY_TOUR_songs.plist */; };
+		47A169BC218C267600CE6C17 /* PAST_MASTERS_VOLUME_1_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169AD218C267600CE6C17 /* PAST_MASTERS_VOLUME_1_songs.plist */; };
+		47A169BD218C267600CE6C17 /* PAST_MASTERS_VOLUME_2_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169AE218C267600CE6C17 /* PAST_MASTERS_VOLUME_2_songs.plist */; };
+		47A169BE218C267600CE6C17 /* PLEASE_PLEASE_ME_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169AF218C267600CE6C17 /* PLEASE_PLEASE_ME_songs.plist */; };
+		47A169BF218C267600CE6C17 /* REVOLVER_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169B0218C267600CE6C17 /* REVOLVER_songs.plist */; };
+		47A169C0218C267600CE6C17 /* RUBBER_SOUL_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169B1218C267600CE6C17 /* RUBBER_SOUL_songs.plist */; };
+		47A169C1218C267600CE6C17 /* SGT._PEPPER'S_LONELY_HEARTS_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169B2218C267600CE6C17 /* SGT._PEPPER'S_LONELY_HEARTS_songs.plist */; };
+		47A169C2218C267600CE6C17 /* THE_BEATLES_(The_White_Album)_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169B3218C267600CE6C17 /* THE_BEATLES_(The_White_Album)_songs.plist */; };
+		47A169C3218C267600CE6C17 /* WITH_THE_BEATLES_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169B4218C267600CE6C17 /* WITH_THE_BEATLES_songs.plist */; };
+		47A169C4218C267600CE6C17 /* YELLOW_SUBMARINE_songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A169B5218C267600CE6C17 /* YELLOW_SUBMARINE_songs.plist */; };
+		47A169C7218C4FCD00CE6C17 /* theBeatles_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A169C5218C4FCD00CE6C17 /* theBeatles_2x.png */; };
+		47A169C8218C4FCD00CE6C17 /* theBeatles_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A169C6218C4FCD00CE6C17 /* theBeatles_3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4710B3E4218B903600728D1E /* App 4_HK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App 4_HK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4710B3E7218B903600728D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4710B3EC218B903600728D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4710B3EE218B903600728D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4710B3F1218B903600728D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4710B3F3218B903600728D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47951DC5218BC7280072D421 /* albums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albums.png; sourceTree = "<group>"; };
+		47951DC6218BC7280072D421 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		47951DC7218BC7280072D421 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		47951DCB218BC9920072D421 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		47951DCE218BCC1D0072D421 /* abbeyRoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abbeyRoad.jpg; sourceTree = "<group>"; };
+		47951DCF218BCC1D0072D421 /* BeatlesForSale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BeatlesForSale.jpg; sourceTree = "<group>"; };
+		47951DD0218BCC1D0072D421 /* HardDaysNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HardDaysNight.jpg; sourceTree = "<group>"; };
+		47951DD1218BCC1D0072D421 /* help.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = help.jpg; sourceTree = "<group>"; };
+		47951DD2218BCC1D0072D421 /* intro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro.jpg; sourceTree = "<group>"; };
+		47951DD3218BCC1D0072D421 /* letitbe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = letitbe.jpg; sourceTree = "<group>"; };
+		47951DD4218BCC1D0072D421 /* MagicalMysteryTour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MagicalMysteryTour.jpg; sourceTree = "<group>"; };
+		47951DD5218BCC1D0072D421 /* PastMastersVolume1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PastMastersVolume1.jpg; sourceTree = "<group>"; };
+		47951DD6218BCC1D0072D421 /* PastMastersVolume2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PastMastersVolume2.jpg; sourceTree = "<group>"; };
+		47951DD7218BCC1D0072D421 /* pleasePleaseMe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pleasePleaseMe.jpg; sourceTree = "<group>"; };
+		47951DD8218BCC1D0072D421 /* revolver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = revolver.jpg; sourceTree = "<group>"; };
+		47951DD9218BCC1D0072D421 /* rubberSoul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rubberSoul.jpg; sourceTree = "<group>"; };
+		47951DDA218BCC1D0072D421 /* sgt_pepper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sgt_pepper.jpg; sourceTree = "<group>"; };
+		47951DDB218BCC1D0072D421 /* sgtPepper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sgtPepper.jpg; sourceTree = "<group>"; };
+		47951DDC218BCC1D0072D421 /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
+		47951DDD218BCC1D0072D421 /* WithTheBeatles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WithTheBeatles.jpg; sourceTree = "<group>"; };
+		47951DDE218BCC1D0072D421 /* Yellowsubmarine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellowsubmarine.jpg; sourceTree = "<group>"; };
+		47951DF0218BE1B60072D421 /* SoManyTabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoManyTabs.swift; sourceTree = "<group>"; };
+		47951DF2218BE2C10072D421 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		47951DF4218BE3170072D421 /* AllTheseAlbums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTheseAlbums.swift; sourceTree = "<group>"; };
+		47951DF6218BE32B0072D421 /* AllTheseSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTheseSongs.swift; sourceTree = "<group>"; };
+		47951DF8218BE34D0072D421 /* Youtuber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Youtuber.swift; sourceTree = "<group>"; };
+		47A16965218BFACB00CE6C17 /* albums_1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = albums_1.plist; sourceTree = "<group>"; };
+		47A16986218BFE6200CE6C17 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		47A169A7218C267600CE6C17 /* A_HARD_DAY'S_NIGHT_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "A_HARD_DAY'S_NIGHT_songs.plist"; sourceTree = "<group>"; };
+		47A169A8218C267600CE6C17 /* ABBEY_ROAD_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ABBEY_ROAD_songs.plist; sourceTree = "<group>"; };
+		47A169A9218C267600CE6C17 /* BEATLES_FOR_SALE_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BEATLES_FOR_SALE_songs.plist; sourceTree = "<group>"; };
+		47A169AA218C267600CE6C17 /* HELP!_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HELP!_songs.plist"; sourceTree = "<group>"; };
+		47A169AB218C267600CE6C17 /* LET_IT_BE_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LET_IT_BE_songs.plist; sourceTree = "<group>"; };
+		47A169AC218C267600CE6C17 /* MAGICAL_MYSTERY_TOUR_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MAGICAL_MYSTERY_TOUR_songs.plist; sourceTree = "<group>"; };
+		47A169AD218C267600CE6C17 /* PAST_MASTERS_VOLUME_1_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PAST_MASTERS_VOLUME_1_songs.plist; sourceTree = "<group>"; };
+		47A169AE218C267600CE6C17 /* PAST_MASTERS_VOLUME_2_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PAST_MASTERS_VOLUME_2_songs.plist; sourceTree = "<group>"; };
+		47A169AF218C267600CE6C17 /* PLEASE_PLEASE_ME_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PLEASE_PLEASE_ME_songs.plist; sourceTree = "<group>"; };
+		47A169B0218C267600CE6C17 /* REVOLVER_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = REVOLVER_songs.plist; sourceTree = "<group>"; };
+		47A169B1218C267600CE6C17 /* RUBBER_SOUL_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RUBBER_SOUL_songs.plist; sourceTree = "<group>"; };
+		47A169B2218C267600CE6C17 /* SGT._PEPPER'S_LONELY_HEARTS_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SGT._PEPPER'S_LONELY_HEARTS_songs.plist"; sourceTree = "<group>"; };
+		47A169B3218C267600CE6C17 /* THE_BEATLES_(The_White_Album)_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "THE_BEATLES_(The_White_Album)_songs.plist"; sourceTree = "<group>"; };
+		47A169B4218C267600CE6C17 /* WITH_THE_BEATLES_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WITH_THE_BEATLES_songs.plist; sourceTree = "<group>"; };
+		47A169B5218C267600CE6C17 /* YELLOW_SUBMARINE_songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YELLOW_SUBMARINE_songs.plist; sourceTree = "<group>"; };
+		47A169C5218C4FCD00CE6C17 /* theBeatles_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBeatles_2x.png; sourceTree = "<group>"; };
+		47A169C6218C4FCD00CE6C17 /* theBeatles_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBeatles_3x.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4710B3E1218B903600728D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4710B3DB218B903600728D1E = {
+			isa = PBXGroup;
+			children = (
+				4710B3E6218B903600728D1E /* App 4_HK */,
+				4710B3E5218B903600728D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4710B3E5218B903600728D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4710B3E4218B903600728D1E /* App 4_HK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4710B3E6218B903600728D1E /* App 4_HK */ = {
+			isa = PBXGroup;
+			children = (
+				47A169C5218C4FCD00CE6C17 /* theBeatles_2x.png */,
+				47A169C6218C4FCD00CE6C17 /* theBeatles_3x.png */,
+				47A169A6218C265700CE6C17 /* song plists */,
+				47A16965218BFACB00CE6C17 /* albums_1.plist */,
+				47951DCD218BCC1D0072D421 /* albums */,
+				47951DC4218BC7280072D421 /* tabBars */,
+				4710B3E7218B903600728D1E /* AppDelegate.swift */,
+				4710B3EB218B903600728D1E /* Main.storyboard */,
+				4710B3EE218B903600728D1E /* Assets.xcassets */,
+				4710B3F0218B903600728D1E /* LaunchScreen.storyboard */,
+				4710B3F3218B903600728D1E /* Info.plist */,
+				47951DCB218BC9920072D421 /* HomeController.swift */,
+				47951DF0218BE1B60072D421 /* SoManyTabs.swift */,
+				47951DF2218BE2C10072D421 /* Navigator.swift */,
+				47951DF4218BE3170072D421 /* AllTheseAlbums.swift */,
+				47951DF6218BE32B0072D421 /* AllTheseSongs.swift */,
+				47951DF8218BE34D0072D421 /* Youtuber.swift */,
+				47A16986218BFE6200CE6C17 /* String.swift */,
+			);
+			path = "App 4_HK";
+			sourceTree = "<group>";
+		};
+		47951DC4218BC7280072D421 /* tabBars */ = {
+			isa = PBXGroup;
+			children = (
+				47951DC5218BC7280072D421 /* albums.png */,
+				47951DC6218BC7280072D421 /* home.png */,
+				47951DC7218BC7280072D421 /* search.png */,
+			);
+			path = tabBars;
+			sourceTree = "<group>";
+		};
+		47951DCD218BCC1D0072D421 /* albums */ = {
+			isa = PBXGroup;
+			children = (
+				47951DCE218BCC1D0072D421 /* abbeyRoad.jpg */,
+				47951DCF218BCC1D0072D421 /* BeatlesForSale.jpg */,
+				47951DD0218BCC1D0072D421 /* HardDaysNight.jpg */,
+				47951DD1218BCC1D0072D421 /* help.jpg */,
+				47951DD2218BCC1D0072D421 /* intro.jpg */,
+				47951DD3218BCC1D0072D421 /* letitbe.jpg */,
+				47951DD4218BCC1D0072D421 /* MagicalMysteryTour.jpg */,
+				47951DD5218BCC1D0072D421 /* PastMastersVolume1.jpg */,
+				47951DD6218BCC1D0072D421 /* PastMastersVolume2.jpg */,
+				47951DD7218BCC1D0072D421 /* pleasePleaseMe.jpg */,
+				47951DD8218BCC1D0072D421 /* revolver.jpg */,
+				47951DD9218BCC1D0072D421 /* rubberSoul.jpg */,
+				47951DDA218BCC1D0072D421 /* sgt_pepper.jpg */,
+				47951DDB218BCC1D0072D421 /* sgtPepper.jpg */,
+				47951DDC218BCC1D0072D421 /* white.jpg */,
+				47951DDD218BCC1D0072D421 /* WithTheBeatles.jpg */,
+				47951DDE218BCC1D0072D421 /* Yellowsubmarine.jpg */,
+			);
+			path = albums;
+			sourceTree = "<group>";
+		};
+		47A169A6218C265700CE6C17 /* song plists */ = {
+			isa = PBXGroup;
+			children = (
+				47A169A7218C267600CE6C17 /* A_HARD_DAY'S_NIGHT_songs.plist */,
+				47A169A8218C267600CE6C17 /* ABBEY_ROAD_songs.plist */,
+				47A169A9218C267600CE6C17 /* BEATLES_FOR_SALE_songs.plist */,
+				47A169AA218C267600CE6C17 /* HELP!_songs.plist */,
+				47A169AB218C267600CE6C17 /* LET_IT_BE_songs.plist */,
+				47A169AC218C267600CE6C17 /* MAGICAL_MYSTERY_TOUR_songs.plist */,
+				47A169AD218C267600CE6C17 /* PAST_MASTERS_VOLUME_1_songs.plist */,
+				47A169AE218C267600CE6C17 /* PAST_MASTERS_VOLUME_2_songs.plist */,
+				47A169AF218C267600CE6C17 /* PLEASE_PLEASE_ME_songs.plist */,
+				47A169B0218C267600CE6C17 /* REVOLVER_songs.plist */,
+				47A169B1218C267600CE6C17 /* RUBBER_SOUL_songs.plist */,
+				47A169B2218C267600CE6C17 /* SGT._PEPPER'S_LONELY_HEARTS_songs.plist */,
+				47A169B3218C267600CE6C17 /* THE_BEATLES_(The_White_Album)_songs.plist */,
+				47A169B4218C267600CE6C17 /* WITH_THE_BEATLES_songs.plist */,
+				47A169B5218C267600CE6C17 /* YELLOW_SUBMARINE_songs.plist */,
+			);
+			name = "song plists";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4710B3E3218B903600728D1E /* App 4_HK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4710B3F6218B903600728D1E /* Build configuration list for PBXNativeTarget "App 4_HK" */;
+			buildPhases = (
+				4710B3E0218B903600728D1E /* Sources */,
+				4710B3E1218B903600728D1E /* Frameworks */,
+				4710B3E2218B903600728D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App 4_HK";
+			productName = "App 4_HK";
+			productReference = 4710B3E4218B903600728D1E /* App 4_HK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4710B3DC218B903600728D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hassan Khan";
+				TargetAttributes = {
+					4710B3E3218B903600728D1E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4710B3DF218B903600728D1E /* Build configuration list for PBXProject "App 4_HK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4710B3DB218B903600728D1E;
+			productRefGroup = 4710B3E5218B903600728D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4710B3E3218B903600728D1E /* App 4_HK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4710B3E2218B903600728D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47951DEA218BCC1D0072D421 /* rubberSoul.jpg in Resources */,
+				47951DEF218BCC1D0072D421 /* Yellowsubmarine.jpg in Resources */,
+				47951DE3218BCC1D0072D421 /* intro.jpg in Resources */,
+				4710B3F2218B903600728D1E /* LaunchScreen.storyboard in Resources */,
+				47A16966218BFACB00CE6C17 /* albums_1.plist in Resources */,
+				47951DCA218BC7280072D421 /* search.png in Resources */,
+				47A169C7218C4FCD00CE6C17 /* theBeatles_2x.png in Resources */,
+				47A169BD218C267600CE6C17 /* PAST_MASTERS_VOLUME_2_songs.plist in Resources */,
+				47A169C4218C267600CE6C17 /* YELLOW_SUBMARINE_songs.plist in Resources */,
+				47951DE9218BCC1D0072D421 /* revolver.jpg in Resources */,
+				47951DED218BCC1D0072D421 /* white.jpg in Resources */,
+				47951DE4218BCC1D0072D421 /* letitbe.jpg in Resources */,
+				47951DEC218BCC1D0072D421 /* sgtPepper.jpg in Resources */,
+				47951DC9218BC7280072D421 /* home.png in Resources */,
+				47951DE6218BCC1D0072D421 /* PastMastersVolume1.jpg in Resources */,
+				47951DEE218BCC1D0072D421 /* WithTheBeatles.jpg in Resources */,
+				47951DC8218BC7280072D421 /* albums.png in Resources */,
+				47A169BB218C267600CE6C17 /* MAGICAL_MYSTERY_TOUR_songs.plist in Resources */,
+				47A169BC218C267600CE6C17 /* PAST_MASTERS_VOLUME_1_songs.plist in Resources */,
+				47951DE8218BCC1D0072D421 /* pleasePleaseMe.jpg in Resources */,
+				47A169C3218C267600CE6C17 /* WITH_THE_BEATLES_songs.plist in Resources */,
+				47A169C0218C267600CE6C17 /* RUBBER_SOUL_songs.plist in Resources */,
+				47A169B7218C267600CE6C17 /* ABBEY_ROAD_songs.plist in Resources */,
+				47951DE5218BCC1D0072D421 /* MagicalMysteryTour.jpg in Resources */,
+				47951DE7218BCC1D0072D421 /* PastMastersVolume2.jpg in Resources */,
+				47A169B9218C267600CE6C17 /* HELP!_songs.plist in Resources */,
+				47A169C8218C4FCD00CE6C17 /* theBeatles_3x.png in Resources */,
+				47A169B6218C267600CE6C17 /* A_HARD_DAY'S_NIGHT_songs.plist in Resources */,
+				4710B3EF218B903600728D1E /* Assets.xcassets in Resources */,
+				47951DE0218BCC1D0072D421 /* BeatlesForSale.jpg in Resources */,
+				47951DEB218BCC1D0072D421 /* sgt_pepper.jpg in Resources */,
+				47A169BF218C267600CE6C17 /* REVOLVER_songs.plist in Resources */,
+				47A169C2218C267600CE6C17 /* THE_BEATLES_(The_White_Album)_songs.plist in Resources */,
+				47951DE2218BCC1D0072D421 /* help.jpg in Resources */,
+				47951DE1218BCC1D0072D421 /* HardDaysNight.jpg in Resources */,
+				47A169B8218C267600CE6C17 /* BEATLES_FOR_SALE_songs.plist in Resources */,
+				47A169BE218C267600CE6C17 /* PLEASE_PLEASE_ME_songs.plist in Resources */,
+				4710B3ED218B903600728D1E /* Main.storyboard in Resources */,
+				47A169BA218C267600CE6C17 /* LET_IT_BE_songs.plist in Resources */,
+				47951DDF218BCC1D0072D421 /* abbeyRoad.jpg in Resources */,
+				47A169C1218C267600CE6C17 /* SGT._PEPPER'S_LONELY_HEARTS_songs.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4710B3E0218B903600728D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47951DF5218BE3170072D421 /* AllTheseAlbums.swift in Sources */,
+				47951DF1218BE1B60072D421 /* SoManyTabs.swift in Sources */,
+				47951DF7218BE32B0072D421 /* AllTheseSongs.swift in Sources */,
+				47951DF3218BE2C10072D421 /* Navigator.swift in Sources */,
+				47951DF9218BE34D0072D421 /* Youtuber.swift in Sources */,
+				4710B3E8218B903600728D1E /* AppDelegate.swift in Sources */,
+				47A16987218BFE6200CE6C17 /* String.swift in Sources */,
+				47951DCC218BC9920072D421 /* HomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4710B3EB218B903600728D1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4710B3EC218B903600728D1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4710B3F0218B903600728D1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4710B3F1218B903600728D1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4710B3F4218B903600728D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4710B3F5218B903600728D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4710B3F7218B903600728D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App 4_HK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Khan.App-4-HK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4710B3F8218B903600728D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App 4_HK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Khan.App-4-HK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4710B3DF218B903600728D1E /* Build configuration list for PBXProject "App 4_HK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4710B3F4218B903600728D1E /* Debug */,
+				4710B3F5218B903600728D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4710B3F6218B903600728D1E /* Build configuration list for PBXNativeTarget "App 4_HK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4710B3F7218B903600728D1E /* Debug */,
+				4710B3F8218B903600728D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4710B3DC218B903600728D1E /* Project object */;
+}
